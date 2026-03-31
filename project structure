@@ -1,0 +1,9 @@
+smart-attendance-system/
+│── dataset/
+│── trainer/
+│── attendance.csv
+│── face_dataset.py
+│── train_model.py
+│── recognize.py
+│── haarcascade_frontalface_default.xml
+│── README.md
