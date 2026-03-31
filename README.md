@@ -49,19 +49,31 @@ Manual inspection is:
 - **Visualization:** Matplotlib
 
 ---
+## 🛠️ Tech Stack
+- Python
+- OpenCV
+- NumPy
+- Pandas
 
-## 📁 Folder Structure
-road-crack-detection/
-├── data/                  # Input road images
-│   ├── sample1.jpg
-│   └── sample2.jpg
-├── src/                   # Source code
-│   ├── main.py            # Entry point — runs the pipeline
-│   ├── preprocessing.py   # Grayscale, blur, CLAHE, thresholding
-│   ├── detection.py       # Edge detection, morphology, contours
-│   └── utils.py           # Load/save images, display, reporting
-├── outputs/               # Generated output images
-├── requirements.txt       # Python dependencies
-├── PROJECT_REPORT.md      # Detailed project report
-└── README.md              # This file
+## ⚙️ Setup Instructions
+
+1. Install dependencies:
+pip install opencv-python numpy pandas pillow
+
+2. Run dataset collection:
+python face_dataset.py
+
+3. Train model:
+python train_model.py
+
+4. Start attendance system:
+python recognize.py
+
+## 📊 Output
+- Attendance saved in attendance.csv
+
+## 📌 Future Improvements
+- Deep Learning models (FaceNet)
+- Cloud-based attendance storage
+- GUI dashboard
 
